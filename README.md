@@ -36,7 +36,11 @@ Explore the live production deployment of the Plaxeron Portal:
 ## 📋 Table of Contents
 
 - [✨ Core Features](#-core-features)
-- [📸 Visual Tour & Screenshots](#-visual-tour--screenshots)
+- [📸 Complete Visual Tour & Dashboard Tabs](#-complete-visual-tour--dashboard-tabs)
+  - [🛡️ Institutional Admin Portal Tabs](#️-institutional-admin-portal-tabs)
+  - [🎓 Student Career Dashboard Tabs](#-student-career-dashboard-tabs)
+  - [💼 Corporate Recruiter Workspace Tabs](#-corporate-recruiter-workspace-tabs)
+  - [🔐 Authentication & Onboarding](#-authentication--onboarding)
 - [🛠 Tech Stack](#-tech-stack)
 - [📁 Directory Structure](#-directory-structure)
 - [⚡ Quick Start & Installation](#-quick-start--installation)
@@ -76,51 +80,119 @@ Explore the live production deployment of the Plaxeron Portal:
 
 ---
 
-## 📸 Visual Tour & Screenshots
+## 📸 Complete Visual Tour & Dashboard Tabs
 
 <div align="center">
 
 ### 🌐 Public Landing Page & Portal Showcase
 <p align="center">
-  <img src="assets/screenshots/landing_page.png" alt="Landing Page" width="95%" style="border-radius: 8px; border: 1px solid #e1e4e8;" />
+  <img src="assets/screenshots/landing_page.png" alt="Landing Page" width="98%" style="border-radius: 8px; border: 1px solid #e1e4e8;" />
 </p>
 <p><em>Hero section displaying live placement statistics, featured recruiter partner tickers, and quick portals for candidates and enterprises.</em></p>
 
-<br/>
+---
 
-### 📊 Institutional Admin Control Panel
-<p align="center">
-  <img src="assets/screenshots/admin_dashboard.png" alt="Admin Dashboard" width="95%" style="border-radius: 8px; border: 1px solid #e1e4e8;" />
-</p>
-<p><em>Executive dashboard featuring system analytics counters, corporate & drive approval queues, user management tables, and system broadcast tools.</em></p>
+### 🛡️ Institutional Admin Portal Tabs
 
-<br/>
-
-### 🎓 Student Placement & Career Dashboard
-<p align="center">
-  <img src="assets/screenshots/student_dashboard.png" alt="Student Dashboard" width="95%" style="border-radius: 8px; border: 1px solid #e1e4e8;" />
-</p>
-<p><em>Student view showcasing active recruitment drives, CTC packages, 1-click application triggers, and real-time status tracking badges.</em></p>
-
-<br/>
-
-### 💼 Corporate Recruiter & Drive Manager
-<p align="center">
-  <img src="assets/screenshots/company_dashboard.png" alt="Company Dashboard" width="95%" style="border-radius: 8px; border: 1px solid #e1e4e8;" />
-</p>
-<p><em>Recruiter workspace for publishing job drives, evaluating candidate applications, downloading resumes, and scheduling interview rounds.</em></p>
-
-<br/>
-
-### 🔐 Multi-Role Authentication & Recruiter Onboarding
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="assets/screenshots/auth_login.png" alt="Student Login Portal" width="100%" style="border-radius: 6px;" />
-      <br/><strong>Candidate & Recruiter Login</strong>
+      <img src="assets/screenshots/admin_overview.png" alt="Admin Overview Tab" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>1. Executive Metrics & Overview</strong>
     </td>
     <td width="50%" align="center">
-      <img src="assets/screenshots/company_register.png" alt="Company Registration Portal" width="100%" style="border-radius: 6px;" />
+      <img src="assets/screenshots/admin_approvals.png" alt="Admin Approvals Tab" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>2. Corporate & Drive Verification Queue</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/admin_students.png" alt="Admin Student Management" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>3. Student Records & Governance</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/admin_companies.png" alt="Admin Company Directory" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>4. Recruiter Directory & Status Controls</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/admin_drives.png" alt="Admin Placement Drives" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>5. Institutional Placement Drive Oversight</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/admin_support.png" alt="Admin Support Helpdesk" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>6. Helpdesk & Support Resolution</strong>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🎓 Student Career Dashboard Tabs
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/student_overview.png" alt="Student Overview Tab" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>1. Student Career Overview & Stats</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/student_drives.png" alt="Student Drives Explorer" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>2. Placement Drives Explorer & Filters</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/student_applications.png" alt="Student Application Tracker" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>3. Real-Time Application Lifecycle Tracker</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/student_companies.png" alt="Student Companies Directory" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>4. Recruiting Companies Directory</strong>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 💼 Corporate Recruiter Workspace Tabs
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/company_overview.png" alt="Company Recruiter Overview" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>1. Recruiter Dashboard & Active Stats</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/company_drives.png" alt="Company Drive Posting" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>2. Drive Posting & Management</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/company_pipeline.png" alt="Candidate Review Pipeline" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>3. Candidate Screening & Resume Pipeline</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/company_dashboard.png" alt="Interview Scheduler" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>4. Automated Interview Scheduler</strong>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🔐 Authentication & Onboarding
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/auth_login.png" alt="Multi-Role Authentication Portal" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
+      <br/><strong>Multi-Role Login Portal (Student / Recruiter / Admin)</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/screenshots/company_register.png" alt="Corporate Registration Portal" width="100%" style="border-radius: 6px; border: 1px solid #ddd;" />
       <br/><strong>Corporate Verification Onboarding</strong>
     </td>
   </tr>
@@ -154,11 +226,21 @@ Plaxeron-Placement-portal/
 ├── api.yml                     # OpenAPI 3.0 REST API specification
 ├── render.yaml                 # Render cloud deployment configuration
 ├── assets/
-│   └── screenshots/            # UI documentation screenshots
+│   └── screenshots/            # UI documentation screenshots across all tabs
 │       ├── landing_page.png
-│       ├── admin_dashboard.png
-│       ├── student_dashboard.png
-│       ├── company_dashboard.png
+│       ├── admin_overview.png
+│       ├── admin_approvals.png
+│       ├── admin_students.png
+│       ├── admin_companies.png
+│       ├── admin_drives.png
+│       ├── admin_support.png
+│       ├── student_overview.png
+│       ├── student_drives.png
+│       ├── student_applications.png
+│       ├── student_companies.png
+│       ├── company_overview.png
+│       ├── company_drives.png
+│       ├── company_pipeline.png
 │       ├── auth_login.png
 │       └── company_register.png
 ├── static/
